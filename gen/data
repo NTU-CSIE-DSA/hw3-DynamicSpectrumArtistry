@@ -1,0 +1,188 @@
+@subtask samples
+manual sample1.in
+manual sample2.in
+
+@subtask s1
+# usage: gen_random MAX_N MAX_E
+gen_random 1000 1000
+gen_random 1000 5000
+gen_random 1000 20000
+gen_random 1000 40000
+gen_random 1000 60000
+gen_random 1000 80000
+gen_random 1000 100000
+gen_random 1000 200000
+gen_random 1000 400000
+gen_random 1000 600000
+gen_random 1000 800000
+# usage: gen MAX_N MAX_E SCC_count
+gen 1000 10000 20
+gen 1000 10000 40
+gen 1000 10000 60
+gen 1000 10000 80
+gen 1000 10000 100
+gen 1000 10000 200
+gen 1000 10000 300
+gen 1000 10000 400
+gen 1000 10000 500
+gen 1000 100000 20
+gen 1000 100000 40
+gen 1000 100000 60
+gen 1000 100000 80
+gen 1000 100000 100
+gen 1000 100000 200
+gen 1000 100000 300
+gen 1000 100000 400
+gen 1000 100000 500
+# usage: gen_star MAX_N in/out
+gen_star 1000 in
+gen_star 1000 out
+# usage: gen_dag MAX_N MAX_E
+gen_dag 1000 1000
+gen_dag 1000 2000
+gen_dag 1000 4000
+gen_dag 1000 8000
+gen_dag 1000 10000
+gen_dag 1000 20000
+gen_dag 1000 40000
+gen_dag 1000 80000
+# usage: gen_isolated MAX_N MAX_E SCC_count isolated
+gen_isolated 1000 10000 2 1
+gen_isolated 1000 10000 4 1
+gen_isolated 1000 10000 5 2
+gen_isolated 1000 20000 2 1
+gen_isolated 1000 20000 4 1
+gen_isolated 1000 20000 5 2
+@subtask s2
+@include s1
+gen_random 100000 999992
+gen_random 100000 999994
+gen_random 100000 999996
+gen_random 100000 999998
+gen_random 100000 1000000
+gen 100000 1000000 20
+gen 100000 1000000 40
+gen 100000 1000000 60
+gen 100000 1000000 80
+gen 100000 1000000 100
+gen 100000 1000000 200
+gen 100000 1000000 400
+gen 100000 1000000 600
+gen 100000 1000000 800
+gen 100000 1000000 1000
+gen 100000 1000000 2000
+gen 100000 1000000 4000
+gen 100000 1000000 6000
+gen 100000 1000000 8000
+gen 100000 1000000 10000
+gen 100000 1000000 20000
+gen 100000 1000000 30000
+gen 100000 1000000 40000
+gen 100000 1000000 50000
+gen_star 100000 in
+gen_star 100000 out
+gen_dag 100000 10000
+gen_dag 100000 20000
+gen_dag 100000 30000
+gen_dag 100000 40000
+gen_dag 100000 50000
+gen_dag 100000 60000
+gen_dag 100000 70000
+gen_dag 100000 80000
+gen_dag 100000 90000
+gen_dag 100000 100000
+gen_isolated 100000 100000 2 1
+gen_isolated 100000 100000 3 1
+gen_isolated 100000 100000 4 1
+gen_isolated 100000 100000 5 1
+gen_isolated 100000 100000 5 2
+gen_isolated 100000 100000 6 2
+@subtask s3
+gen_copy 1-01
+gen_copy 1-02
+gen_copy 1-03
+gen_copy 1-04
+gen_copy 1-05
+gen_copy 1-06
+gen_copy 1-07
+gen_copy 1-08
+gen_copy 1-09
+gen_copy 1-10
+gen_copy 1-11
+gen_copy 1-12
+gen_copy 1-13
+gen_copy 1-14
+gen_copy 1-15
+gen_copy 1-16
+gen_copy 1-17
+gen_copy 1-18
+gen_copy 1-19
+gen_copy 1-20
+gen_copy 1-21
+gen_copy 1-22
+gen_copy 1-23
+gen_copy 1-24
+gen_copy 1-25
+gen_copy 1-26
+gen_copy 1-27
+gen_copy 1-28
+gen_copy 1-29
+gen_copy 1-30
+gen_copy 1-31
+gen_copy 1-32
+gen_copy 1-33
+gen_copy 1-34
+gen_copy 1-35
+gen_copy 1-36
+gen_copy 1-37
+gen_copy 1-38
+gen_copy 1-39
+gen_copy 1-40
+gen_copy 1-41
+gen_copy 1-42
+gen_copy 1-43
+gen_copy 1-44
+gen_copy 1-45
+@subtask s4
+gen_copy 2-01
+gen_copy 2-02
+gen_copy 2-03
+gen_copy 2-04
+gen_copy 2-05
+gen_copy 2-06
+gen_copy 2-07
+gen_copy 2-08
+gen_copy 2-09
+gen_copy 2-10
+gen_copy 2-11
+gen_copy 2-12
+gen_copy 2-13
+gen_copy 2-14
+gen_copy 2-15
+gen_copy 2-16
+gen_copy 2-17
+gen_copy 2-18
+gen_copy 2-19
+gen_copy 2-20
+gen_copy 2-21
+gen_copy 2-22
+gen_copy 2-23
+gen_copy 2-24
+gen_copy 2-25
+gen_copy 2-26
+gen_copy 2-27
+gen_copy 2-28
+gen_copy 2-29
+gen_copy 2-30
+gen_copy 2-31
+gen_copy 2-32
+gen_copy 2-33
+gen_copy 2-34
+gen_copy 2-35
+gen_copy 2-36
+gen_copy 2-37
+gen_copy 2-38
+gen_copy 2-39
+gen_copy 2-40
+gen_copy 2-41
+gen_copy 2-42

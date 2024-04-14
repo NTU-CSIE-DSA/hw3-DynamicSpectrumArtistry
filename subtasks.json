@@ -1,0 +1,33 @@
+{
+	"global_validators": ["val.cpp"],
+	"subtasks": {
+		"samples": {
+			"index": 0,
+			"score": 0,
+			"text": "sample tasks"
+		},
+		"s1": {
+			"index": 1,
+			"score": 15,
+			"text": "V is small and mode 1 only",
+            "validators": ["val1.cpp"]
+		},
+		"s2": {
+			"index": 2,
+			"score": 25,
+			"text": "mode 1 only",
+            "validators": ["val2.cpp"]
+		},
+		"s3": {
+			"index": 3,
+			"score": 15,
+			"text": "V is small",
+            "validators": ["val3.cpp"]
+		},
+		"s4": {
+			"index": 4,
+			"score": 45,
+			"text": "no other constraints"
+		}
+	}
+}
