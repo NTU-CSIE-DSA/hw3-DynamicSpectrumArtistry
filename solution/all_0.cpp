@@ -125,6 +125,7 @@ int main(){
     }
     */
 
-    printf("%d\n", current_color);
+    if(mode == 1) printf("%d\n", current_color);
+    else printf("%d\n0\n", current_color);
     return 0;
 }

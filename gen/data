@@ -6,53 +6,44 @@ manual sample2.in
 # usage: gen_random MAX_N MAX_E
 gen_random 1000 1000
 gen_random 1000 5000
-gen_random 1000 20000
-gen_random 1000 40000
-gen_random 1000 60000
-gen_random 1000 80000
+gen_random 1000 10000
+gen_random 1000 50000
 gen_random 1000 100000
 gen_random 1000 200000
 gen_random 1000 400000
-gen_random 1000 600000
 gen_random 1000 800000
+gen_random 1000 900000
 # usage: gen MAX_N MAX_E SCC_count
-gen 1000 10000 20
-gen 1000 10000 40
-gen 1000 10000 60
-gen 1000 10000 80
+gen 1000 10000 10
+gen 1000 10000 50
 gen 1000 10000 100
-gen 1000 10000 200
-gen 1000 10000 300
-gen 1000 10000 400
 gen 1000 10000 500
-gen 1000 100000 20
-gen 1000 100000 40
-gen 1000 100000 60
-gen 1000 100000 80
+gen 1000 100000 10
+gen 1000 100000 50
 gen 1000 100000 100
-gen 1000 100000 200
-gen 1000 100000 300
-gen 1000 100000 400
 gen 1000 100000 500
+gen 1000 500000 10
+gen 1000 500000 50
+gen 1000 500000 100
+gen 1000 500000 500
+gen 1000 942252 500
+gen 1000 973256 500
+gen 1000 983536 500
+gen 1000 990000 500
 # usage: gen_star MAX_N in/out
 gen_star 1000 in
 gen_star 1000 out
 # usage: gen_dag MAX_N MAX_E
-gen_dag 1000 1000
-gen_dag 1000 2000
-gen_dag 1000 4000
-gen_dag 1000 8000
-gen_dag 1000 10000
-gen_dag 1000 20000
-gen_dag 1000 40000
-gen_dag 1000 80000
+gen_dag 1000 771449
+gen_dag 1000 888888
+gen_dag 1000 999999
 # usage: gen_isolated MAX_N MAX_E SCC_count isolated
-gen_isolated 1000 10000 2 1
-gen_isolated 1000 10000 4 1
-gen_isolated 1000 10000 5 2
-gen_isolated 1000 20000 2 1
-gen_isolated 1000 20000 4 1
-gen_isolated 1000 20000 5 2
+gen_isolated 1000 800000 2 1
+gen_isolated 1000 800000 4 1
+gen_isolated 1000 800000 5 2
+# usage: gen_list MAX_N mode
+gen_list 1000 1
+gen_list 1000 2
 @subtask s2
 @include s1
 gen_random 100000 999992
@@ -79,17 +70,15 @@ gen 100000 1000000 20000
 gen 100000 1000000 30000
 gen 100000 1000000 40000
 gen 100000 1000000 50000
+gen 100000 1000000 60000
+gen 100000 1000000 70000
+gen 100000 1000000 80000
+gen 100000 1000000 90000
+gen 100000 1000000 100000
 gen_star 100000 in
 gen_star 100000 out
-gen_dag 100000 10000
-gen_dag 100000 20000
-gen_dag 100000 30000
-gen_dag 100000 40000
-gen_dag 100000 50000
-gen_dag 100000 60000
-gen_dag 100000 70000
-gen_dag 100000 80000
-gen_dag 100000 90000
+gen_dag 100000 99990
+gen_dag 100000 99995
 gen_dag 100000 100000
 gen_isolated 100000 100000 2 1
 gen_isolated 100000 100000 3 1
@@ -97,6 +86,8 @@ gen_isolated 100000 100000 4 1
 gen_isolated 100000 100000 5 1
 gen_isolated 100000 100000 5 2
 gen_isolated 100000 100000 6 2
+gen_list 100000 1
+gen_list 100000 2
 @subtask s3
 gen_copy 1-01
 gen_copy 1-02
@@ -133,16 +124,6 @@ gen_copy 1-32
 gen_copy 1-33
 gen_copy 1-34
 gen_copy 1-35
-gen_copy 1-36
-gen_copy 1-37
-gen_copy 1-38
-gen_copy 1-39
-gen_copy 1-40
-gen_copy 1-41
-gen_copy 1-42
-gen_copy 1-43
-gen_copy 1-44
-gen_copy 1-45
 @subtask s4
 gen_copy 2-01
 gen_copy 2-02

@@ -33,6 +33,21 @@ int main(int argc, char* argv[]) {  // gen MAX_V MAX_E SCC_count
         }
         if(SCC_Graph[i].size() > 1) Edge.insert({SCC_Graph[i][SCC_Graph[i].size() - 1], SCC_Graph[i][0]});
     }
+    // 骰骰子決定要不要保證有H-PATH
+    int is_h = rnd.next(1, 100);
+    if(is_h < 30){
+        int f = 0, b = 1;
+        while(b < SCC){
+            while(f < SCC && !SCC_Graph[f].size()) f += 1;
+            b = f + 1;
+            while(b < SCC && !SCC_Graph[b].size()) b += 1;
+            if(b >= SCC) break;
+            int fn = rnd.any(SCC_Graph[f]);
+            int bn = rnd.any(SCC_Graph[b]);
+            Edge.insert({fn, bn});
+            f += 1;
+        }
+    }
     // 建邊 => 先指定SCC1->SCC2，再分別從1和2各抓一個node出來，1和2可以接受一樣，不然SCC內都是單純的環
     int failed = 0; // 如果一直選到重複的邊就算了
     while(Edge.size() < E && failed <= 10000){
