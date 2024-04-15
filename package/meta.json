@@ -1,7 +1,8 @@
 {
     "name": "[HW3.P3] Dynamic Spectrum Artistry",
     "timeLimit": 3,
-    "memLimit": 261244,
+    "memLimit": 262144,
+    "hasSpecialJudge": false,
     "testdata": [
         {
             "points": 0,

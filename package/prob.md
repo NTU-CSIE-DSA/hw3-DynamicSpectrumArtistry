@@ -1,8 +1,6 @@
 ## Problem Description
 
-草稿放在這邊，我盡快生完題敘QAQ
-
-https://hackmd.io/@bamboochen92518/Bk77it91A
+基本題敘overleaf有了，SCC的說明在趕工ing QAQ
 
 Please refer to the PDF on NTU COOL.
 
