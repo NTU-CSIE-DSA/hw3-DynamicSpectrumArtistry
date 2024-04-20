@@ -1,7 +1,5 @@
 ## Problem Description
 
-基本題敘overleaf有了，SCC的說明在趕工ing QAQ
-
 Please refer to the PDF on NTU COOL.
 
 ## Sample Test Cases
@@ -25,11 +23,12 @@ Please refer to the PDF on NTU COOL.
 ### Sample Input 2
 
 ```
-4 4 2
+5 5 2
 1 2
-2 1
 2 3
-1 4
+3 1
+2 4
+5 4
 ```
 
 ### Sample Output 2
