@@ -3,6 +3,11 @@ manual sample1.in
 manual sample2.in
 
 @subtask s1
+manual manual1-1.in
+manual manual1-2.in
+manual manual1-3.in
+manual manual1-4.in
+manual manual1-5.in
 # usage: gen_random MAX_N MAX_E
 gen_random 1000 1000
 gen_random 1000 5000
@@ -124,7 +129,13 @@ gen_copy 1-32
 gen_copy 1-33
 gen_copy 1-34
 gen_copy 1-35
+gen_copy 1-36
+gen_copy 1-37
+gen_copy 1-38
+gen_copy 1-39
+gen_copy 1-40
 @subtask s4
+@include s3
 gen_copy 2-01
 gen_copy 2-02
 gen_copy 2-03

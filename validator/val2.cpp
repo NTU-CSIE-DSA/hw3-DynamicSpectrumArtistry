@@ -7,7 +7,7 @@ int main() {
     registerValidation();
     int V = inf.readInt(1, 1e5);
     inf.readSpace();
-    int E = inf.readInt(1, 1e6);
+    int E = inf.readInt(0, 1e6);
     inf.readSpace();
     int mode = inf.readInt(1, 2);
     inf.readEoln();
