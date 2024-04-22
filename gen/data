@@ -10,6 +10,7 @@ manual manual1-4.in
 manual manual1-5.in
 # usage: gen_random MAX_N MAX_E
 gen_random 1000 1000
+gen_random 1000 2000
 gen_random 1000 5000
 gen_random 1000 10000
 gen_random 1000 50000
@@ -49,8 +50,15 @@ gen_isolated 1000 800000 5 2
 # usage: gen_list MAX_N mode
 gen_list 1000 1
 gen_list 1000 2
+# usage: gen_k MAX_N
+gen_k 10
+gen_k 100
+gen_k 1000
 @subtask s2
 @include s1
+gen_random 100000 100000
+gen_random 100000 200000
+gen_random 100000 300000
 gen_random 100000 999992
 gen_random 100000 999994
 gen_random 100000 999996
@@ -134,6 +142,10 @@ gen_copy 1-37
 gen_copy 1-38
 gen_copy 1-39
 gen_copy 1-40
+gen_copy 1-41
+gen_copy 1-42
+gen_copy 1-43
+gen_copy 1-44
 @subtask s4
 @include s3
 gen_copy 2-01
@@ -178,3 +190,6 @@ gen_copy 2-39
 gen_copy 2-40
 gen_copy 2-41
 gen_copy 2-42
+gen_copy 2-43
+gen_copy 2-44
+gen_copy 2-45

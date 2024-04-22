@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {  // gen MAX_V MAX_E SCC_count
     }
     // 骰骰子決定要不要保證有H-PATH
     int is_h = rnd.next(1, 100);
-    if(is_h < 30){
+    if(is_h < 50){
         int f = 0, b = 1;
         while(b < SCC){
             while(f < SCC && !SCC_Graph[f].size()) f += 1;
