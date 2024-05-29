@@ -1,7 +1,7 @@
 # [HW3.P3] Dynamic Spectrum Artistry Tutorial 
 Keywords: `strongly connected component`, `topological sort`, `DAG`
 
-## sample code
+## Sample Code
 ```c
 #include <stdio.h>
 #include <stdbool.h>
@@ -178,7 +178,7 @@ int main() {
 }
 ```
 
-## common mistakes
+## Common Mistakes
 
 1. When condensing a graph, a time complexity of $O(V^2)$ will cause a time limit exceeded (TLE) error.
 1. Some students claim that "if a graph has exactly one node with an in-degree of zero and one node with an out-degree of zero, a path must exist." However, this is incorrect. Here is a counterexample: 
@@ -196,7 +196,7 @@ graph LR;
 
 In this case, there is only one node (1) with an in-degree of 0, and only one node (4) with an out-degree of 0. However, there is no path that passes through all the nodes. 
 
-## coding tips
+## Coding Tips
 
 1. Graph condensation is unnecessary since during a topological sort on a DAG, each color is visited only once.
 
